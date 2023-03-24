@@ -36,8 +36,8 @@
                                               <th scope="row"><?= $value["nbPersonnesSympt"] ?></th>
                                               <th scope="col"><?= $value["nbPersonnesPosi"] ?></th>
                                               <th scope="col">
-                                                  <a href="index.php?url=zone&action=update&id=<?= $value["idZ"] ?>" class="btn btn-outline-warning">Modifier</a>
-                                                  <a href="index.php?url=zone&action=delete&id=<?= $value["idZ"] ?>" id="delete" class="btn btn-outline-danger">Supprimer</a>
+                                                  <a href="accueil.php?url=zone&action=update&id=<?= $value["idZ"] ?>" class="btn btn-outline-warning">Modifier</a>
+                                                  <a href="accueil.php?url=zone&action=delete&id=<?= $value["idZ"] ?>" id="delete" class="btn btn-outline-danger">Supprimer</a>
                                               </th>
                                           </tr>
                                       <?php } ?>

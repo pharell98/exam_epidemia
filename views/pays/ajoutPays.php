@@ -4,7 +4,7 @@
                     <div class="col-sm-12 col-xl-6">
                         <div class="bg-secondary rounded h-100 p-4">
                             <h6 class="mb-4">Ajouter un Pays</h6>
-                            <form method="post" action="index.php?url=pays&action=valideForm">
+                            <form method="post" action="accueil.php?url=pays&action=valideForm">
                                 <div class="mb-3">
                                     <label for="pays" class="form-label">Nom Pays</label>
                                     <input type="hidden" id="idP" name="idP" value="<?php if($mode == "Modifier") {echo $lePays['idP'];} ?>">

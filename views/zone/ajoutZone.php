@@ -4,7 +4,7 @@
                               <div class="col-sm-12 col-xl-6">
                                   <div class="bg-secondary rounded h-100 p-4">
                                       <h6 class="mb-4">Ajouter une Zone</h6>
-                                      <form action="index.php?url=zone&action=validerForm" method="post">
+                                      <form action="accueil.php?url=zone&action=validerForm" method="post">
                                           <div class="mb-3">
                                               <label for="population" class="form-label">Pays</label>
                                               <input type="hidden" id="idZ" name="idZ" value="<?php if($mode == "Modifier") {echo $laZone['idZ'] ;} ?>">

@@ -4,7 +4,7 @@
                     <div class="col-sm-12 col-xl-6">
                         <div class="bg-secondary rounded h-100 p-4">
                             <h6 class="mb-4">Ajouter surveillance pour une zone </h6>
-                            <form method="post" action="index.php?url=pointSurveillance&action=validerForm">
+                            <form method="post" action="accueil.php?url=pointSurveillance&action=validerForm">
                                 <div class="mb-3">
                                     <label for="pays" class="form-label">Nom Point de surveillance</label>
                                     <input type="hidden" id="idPs" name="idPs" value="<?php if ($mode == "Modifier") {

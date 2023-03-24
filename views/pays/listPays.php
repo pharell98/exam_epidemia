@@ -21,8 +21,8 @@
                                     <th scope="col"><?=$key["nomP"]?></th>
                                     <th scope="col"><?=$key["population"]?></th>
                                     <th scope="col">
-                                        <a href="index.php?url=pays&action=update&id=<?=$key["idP"]?>"   class="btn btn-outline-warning">Modifier</a>
-                                        <a href="index.php?url=pays&action=delete&id=<?=$key["idP"]?>" id="delete" class="btn btn-outline-danger">Supprimer</a>
+                                        <a href="accueil.php?url=pays&action=update&id=<?=$key["idP"]?>"   class="btn btn-outline-warning">Modifier</a>
+                                        <a href="accueil.php?url=pays&action=delete&id=<?=$key["idP"]?>" id="delete" class="btn btn-outline-danger">Supprimer</a>
                                         
                                     </th>
                                 </tr>

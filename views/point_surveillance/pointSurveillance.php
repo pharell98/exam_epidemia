@@ -22,8 +22,8 @@
                                                 <th scope="col"><?= $value["nomPs"] ?></th>
                                                 <th scope="col"><?= $value["nomZ"] ?></th>
                                                 <td scope="col">
-                                                    <a href="index.php?url=pointSurveillance&action=update&id=<?= $value["idZ"] ?>" class="btn btn-outline-warning">Modifier</a>
-                                                    <a href="index.php?url=pointSurveillance&action=delete&id=<?= $value["idZ"] ?>" id="delete" class="btn btn-outline-danger">Supprimer</a>
+                                                    <a href="accueil.php?url=pointSurveillance&action=update&id=<?= $value["idZ"] ?>" class="btn btn-outline-warning">Modifier</a>
+                                                    <a href="accueil.php?url=pointSurveillance&action=delete&id=<?= $value["idZ"] ?>" id="delete" class="btn btn-outline-danger">Supprimer</a>
                                                 </td>
                                             </tr>
                                         <?php } ?>
